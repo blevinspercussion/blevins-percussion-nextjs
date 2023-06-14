@@ -40,6 +40,7 @@ const PerformancePage = () => {
           />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
