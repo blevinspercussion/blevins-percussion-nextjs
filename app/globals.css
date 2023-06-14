@@ -28,6 +28,7 @@
   width: 10em;
   border-radius: 10px;
   font-size: larger;
+  /* border: 2px solid white; */
 }
 
 #header {
@@ -36,7 +37,7 @@
   width: 1000vw;
 }
 
-.hero {
+.section {
   display: flex;
   position: block;
   flex-direction: column;
@@ -44,6 +45,7 @@
   height: 100vh; */
   align-items: center;
   justify-content: center;
+  padding: 1em;
   background-color: black;
   margin-top: 1em;
   box-shadow: 0px 15px 0px var(--alt-bg-color);

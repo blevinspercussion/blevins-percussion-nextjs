@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 const HomePage = () => {
   return (
@@ -24,14 +25,17 @@ const HomePage = () => {
           alt="adam blevins playing drums"
         />
       </div>
-      <div className="hero">
+      <div className="hero section">
         <h1>Adam Blevins, Drummer/Percussionist</h1>
         <button className="btn-cta">Contact Me!</button>
+      </div>
+      <div className="section">
         <h3>Expert drums, percussion, and education</h3>
         <h3>
           Serving Chattanooga, North Georgia and the Southeastern United States
         </h3>
       </div>
+      <Footer />
     </div>
   );
 };
