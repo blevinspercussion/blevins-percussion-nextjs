@@ -44,12 +44,14 @@ const Header = () => {
           </ul>
         </div>
       )}
-      <Image
-        src="/../public/photos/blevperclogo_white_cropped.png"
-        width="150"
-        height="65"
-        className="logo"
-      />
+      <Link href="/">
+        <Image
+          src="/../public/photos/blevperclogo_white_cropped.png"
+          width="150"
+          height="65"
+          className="logo"
+        />
+      </Link>
       <Image
         src="/../public/icons/icons8-menu-rounded-30.png"
         width="40"
