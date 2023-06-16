@@ -29,12 +29,12 @@ const HomePage = () => {
         <h1>Adam Blevins, Drummer/Percussionist</h1>
         <button className="btn-cta">Contact Me!</button>
       </div>
-      <div className="section">
+      <section className="section">
         <h3>Expert drums, percussion, and education</h3>
         <h3>
           Serving Chattanooga, North Georgia and the Southeastern United States
         </h3>
-      </div>
+      </section>
       <Footer />
     </div>
   );

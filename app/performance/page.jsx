@@ -9,7 +9,7 @@ const PerformancePage = () => {
       <Header />
       <hr />
       <h1>Live and Studio Performance</h1>
-      <div className="section">
+      <section className="section">
         I have been performing professionally since 1999 in such varied styles
         as: rock, country, Afro-Cuban, Latin, orchestral, ska, and many, many
         more.
@@ -39,7 +39,7 @@ const PerformancePage = () => {
             alt="playing drums on stage"
           />
         </div>
-      </div>
+      </section>
       <Footer />
     </div>
   );

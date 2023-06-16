@@ -9,7 +9,7 @@ const InstructionPage = () => {
       <hr />
       <div className="main-content">
         <h1>Percussion and Drumset Lessons</h1>
-        <div className="section">
+        <section className="section">
           Since 1996 I have taught countless students both privately as well as
           at over a dozen high school and middle school band programs throughout
           Chattanooga, Atlanta, North Georgia, and Central Alabama.
@@ -38,7 +38,7 @@ const InstructionPage = () => {
           <br />
           <br />
           <button className="btn-cta">Contact</button>
-        </div>
+        </section>
       </div>
       <Footer />
     </div>
