@@ -17,6 +17,9 @@ const HomePage = () => {
           alt="adam blevins playing drums"
           className="hero-image"
         /> */}
+      </div>
+      <div className="hero section">
+        <h1>Adam Blevins, Drummer/Percussionist</h1>
         <Image
           src="/../public/photos/banner.jpg"
           height={1000}
@@ -24,10 +27,7 @@ const HomePage = () => {
           className="hero-image"
           alt="adam blevins playing drums"
         />
-      </div>
-      <div className="hero section">
-        <h1>Adam Blevins, Drummer/Percussionist</h1>
-        <button className="btn-cta">Contact Me!</button>
+        <button className="btn-cta">Book Me!</button>
       </div>
       <section className="section">
         <h3>Expert drums, percussion, and education</h3>
