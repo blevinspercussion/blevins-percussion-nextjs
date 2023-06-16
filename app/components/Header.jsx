@@ -17,9 +17,9 @@ const Header = () => {
   };
 
   return (
-    <div id="header">
+    <header id="header">
       {mobileMenuVisible && (
-        <div className="mobile-menu">
+        <nav className="mobile-menu">
           <Image
             src="/../public/icons/exit-icon.png"
             width={25}
@@ -42,7 +42,7 @@ const Header = () => {
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
-        </div>
+        </nav>
       )}
       <Link href="/">
         <Image
@@ -59,7 +59,7 @@ const Header = () => {
         className="mobile-menu-icon"
         onClick={showMobileMenu}
       />
-    </div>
+    </header>
   );
 };
 
